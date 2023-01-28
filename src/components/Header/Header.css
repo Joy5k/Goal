@@ -1,0 +1,15 @@
+.header{
+    display:flex;
+    height: 80px;
+    background-color: #71797e;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.icon{
+    height: 50px;
+    width: 65px;
+    margin-right: 5px;
+}

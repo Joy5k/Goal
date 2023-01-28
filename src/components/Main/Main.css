@@ -1,0 +1,106 @@
+.cart-activity-container{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+}
+.cart-container{
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 10px;
+    row-gap: 30px;
+}
+.progress{
+    display: block;
+    background-color:  rgb(152, 159, 160);
+    margin: 2;
+    height: 80vh;
+    position: relative;
+}
+.progress h2{
+    background-color: rgb(230, 175, 175);
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgb(119, 72, 72);
+    margin: 0;
+
+}
+.progress h4{
+    background-color: rgb(142, 150, 156);
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px gray;
+    margin:0;
+}
+.progress p{
+    background-color: rgb(142, 150, 156);
+    border-radius: 2px;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 10px 10px 20px gray;
+}
+.break-text{
+    text-align: left;
+    margin-left: 0px;
+}
+.btn-container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn-container button{
+    padding: 15px;
+    border-radius:50px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.btn-container button:hover{
+    background-color: rgb(91, 185, 185);
+    transition: .5s;
+}
+.btn-activity{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background:linear-gradient(rgb(216, 170, 161),rgb(229, 130, 130));
+    cursor: pointer;
+
+} 
+@media screen  and (min-width:701px) and (max-width:1020px){
+    .cart-activity-container{
+        display: grid;
+        grid-template-columns:2fr 1fr;
+    }
+    .cart-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+       position: sticky;
+       bottom: 0;
+        align-items: center;
+        margin-bottom:0px;
+    
+    }
+}
+@media screen and (max-width:700px) {
+    .cart-activity-container{
+        display:block;
+        position: relative;
+    }
+        .cart-container{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            row-gap: 20px;
+            align-items: center;
+            margin-bottom:-380px;
+        
+        }
+        .progress{
+            display: block;
+            background-color:  rgb(152, 159, 160);
+            margin: 2;
+            margin-left: 80px;
+            position: absolute;
+            margin-top: 100%;
+        }
+    }

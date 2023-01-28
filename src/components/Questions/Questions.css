@@ -1,0 +1,31 @@
+.questions{
+    display: block;
+    background-color:#B3B9B9;
+    height: auto;
+    margin-top:200px;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+}
+.questions h2{
+    text-align: left;
+}
+.questions p{
+    text-align: left;
+}
+
+@media screen and (max-width:700px) {
+    .questions{
+        display: block;
+        background-color:#B3B9B9;
+        height: auto;
+        margin-top:1450px;
+        align-items: center;
+        width: 90%;
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+}
